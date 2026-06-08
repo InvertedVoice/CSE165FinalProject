@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5592441769355499590}
   - component: {fileID: -8392680276155008275}
   - component: {fileID: -1537140145493029430}
+  - component: {fileID: 1969926581370198460}
   m_Layer: 0
   m_Name: Vege-Cabbage
   m_TagString: Untagged
@@ -283,3 +284,16 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &1969926581370198460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995608954096290038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c978c82a5131147b830a24f4380f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodType: 2
