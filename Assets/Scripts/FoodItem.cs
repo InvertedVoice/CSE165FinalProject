@@ -12,6 +12,13 @@ public class FoodItem : MonoBehaviour
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
     }
 
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.name == "Stylized bunny")
+        {
+            Destroy(gameObject);
+        }
+    }
     public BunnyController.FoodType GetFoodType()
     {
         return foodType;

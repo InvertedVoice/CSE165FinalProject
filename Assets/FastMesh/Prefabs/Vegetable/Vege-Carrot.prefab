@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: -602024959392609838}
   - component: {fileID: -6878783123111797067}
   - component: {fileID: -2352916329835931130}
+  - component: {fileID: -1522769930721164084}
   m_Layer: 0
   m_Name: Vege-Carrot
   m_TagString: Untagged
@@ -402,3 +403,16 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &-1522769930721164084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432622799770361029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c978c82a5131147b830a24f4380f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodType: 1

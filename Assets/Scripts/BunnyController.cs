@@ -29,6 +29,7 @@ public class BunnyController : MonoBehaviour
         // Randomly pick what food the bunny wants
         wantedFood = UnityEngine.Random.value > 0.5f ? FoodType.Carrot : FoodType.Kale;
         animator.SetBool("wantsFood", true);
+        Debug.Log("Wants: " + wantedFood.ToString());
     }
 
     public void FeedBunny(FoodType givenFood)

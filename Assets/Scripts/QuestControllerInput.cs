@@ -128,7 +128,6 @@ public class QuestControllerInput : MonoBehaviour
         if (prefabToSpawn == null || head == null)
             return;
         
-        Debug.Log("prereqs checked");
         Vector3 spawnPos = head.position + head.forward * spawnDistance;
         spawnPos.y = spawnHeight;
 
